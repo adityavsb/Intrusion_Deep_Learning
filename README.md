@@ -3,7 +3,7 @@
 - The dataset can be accessed here: https://www.unsw.adfa.edu.au/australian-centre-for-cyber-security/cybersecurity/ADFA-NB15-Datasets/
 - Furthermore, DeepLearning4j framework has been used to implement the MLP using Java. First, you set up the whole maven project in Java and try running this basec example from Deeplearning4J framework: https://github.com/deeplearning4j/dl4j-examples/blob/master/dl4j-examples/src/main/java/org/deeplearning4j/examples/feedforward/ classification/MLPClassifierSaturn.java
 - Modified code has been provided above. Point ot note is that you have to do preprocessing input data to make it suitable for deep learning architecture. Some crucial steps are:
---- Normalizing data using mean and variance.
---- Using one hot encoding to convert categorical variables into sparse input vectors. This will certainly increase the input vectors in the input data.
+  - Normalizing data using mean and variance.
+  - Using one hot encoding to convert categorical variables into sparse input vectors. This will certainly increase the input vectors in the input data.
 
 
